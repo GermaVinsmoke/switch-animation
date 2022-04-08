@@ -8,20 +8,20 @@
 
 .switch-container {
   height: 50px;
-  border: 8px solid white;
+  border: 8px solid;
   border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0px 8px;
   cursor: pointer;
+  position: relative;
 }
 
 .switch-circle {
-  width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: white;
+  position: absolute;
 }
 
 .label {
@@ -29,5 +29,4 @@
   font-weight: 800;
   margin-left: 20px;
   width: 30px;
-  color: white;
 }

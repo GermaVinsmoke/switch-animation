@@ -1,0 +1,33 @@
+.background {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch-container {
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 8px;
+  cursor: pointer;
+  position: relative;
+  cursor: none;
+}
+
+.switch-circle {
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.label {
+  font-size: 50px;
+  font-weight: 800;
+  margin-left: 20px;
+  width: 30px;
+}
